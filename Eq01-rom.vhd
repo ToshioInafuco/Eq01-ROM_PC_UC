@@ -15,16 +15,16 @@ architecture a_rom of rom is
  constant conteudo_rom : mem := (
             -- caso endereco => conteudo (apenas exemplo. Altere para refletir o
             -- programa solicitado)
-            0 => "00000010",
-            1 => "10000000",
-            2 => "00001111",
+            0 => "00000000",
+            1 => "00000000",
+            2 => "11000101",
             3 => "00000000",
-            4 => "10000000",
-            5 => "00000010",
-            6 => "10100011",
-            7 => "00000010",
-            8 => "00000010",
-            9 => "00011110",
+            4 => "00000000",
+            5 => "00100000",
+            6 => "00000010",
+            7 => "00000000",
+            8 => "00000000",
+            9 => "11000010",
             10 => "00000000",
             -- abaixo: casos omissos => (zero em todos os bits a decodificação do pc
             --é parcial dos 7 least significat bits)
